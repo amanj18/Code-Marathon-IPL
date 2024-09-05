@@ -1,28 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { GetDataQ4 } from "./GetDatQ4";
-const Q4 = () => {
-  //   const [q4, setq4] = useState([]);
-  //   const [year, setYear] = useState("");
-  //   const [input, setInput] = useState(""); // Add a state to hold the input value
+import { DateRange } from "../Services/APIService";
 
-  //   useEffect(() => {
-  //     const getDataQ3 = async () => {
-  //       let data = await GetDataQ4(year);
-  //       if (data != null) {
-  //         setq4(data);
-  //       }
-  //     };
-  //     getDataQ3();
-  //   }, []);
-
-  //   const onChange = (e) => {
-  //     setInput(e.target.value); // Update the state here
-  //   };
-
-  //   const onSubmit = (e) => {
-  //     e.preventDefault();
-  //     setYear(input);
-  //   };
+const Range = () => {
 
   const [q4, setq4] = useState([]);
   const [start, setStart] = useState("");
@@ -32,7 +11,7 @@ const Q4 = () => {
 
   useEffect(() => {
     const getDataQ4 = async () => {
-      let data = await GetDataQ4(start,end);
+      let data = await DateRange(start,end);
       if (Array.isArray(data)) {
         setq4(data);
       } else {
@@ -58,12 +37,6 @@ const Q4 = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center">
-        Retrieve all matches that were played within a specific date range. This
-        endpoint retrieves a list of matches that took place between two
-        specified dates, including match details such as date, venue, and teams
-        involved.
-      </h1>
       <form className="form-group" onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="start">Start date</label>
@@ -92,30 +65,37 @@ const Q4 = () => {
       <h3 className="text-center mt-3">
         Matches that were played within a specific date range {q4.length}.
       </h3>
-      <table className="table table-striped table-bordered mt-3">
-        <thead>
-          <tr>
-            <th>Match Id</th>
+
+      <div className="container">
+  <div className="row justify-content-center">
+    <table className="table table-striped table-bordered">
+      <thead>
+        <tr>
+        <th>Match Id</th>
             <th>Match date</th>
             <th>Venue </th>
             <th>Team 1</th>
             <th>Team 2</th>
-          </tr>
-        </thead>
-        <tbody>
-          {q4.map((p) => (
-            <tr key={p.matchId}>
+        </tr>
+      </thead>
+      <tbody>
+        {q4.map((p) => (
+             <tr  key={p.matchId}>
               <td>{p.matchId}</td>
               <td>{p.matchDate}</td>
               <td>{p.venue}</td>
               <td>{p.team1Name}</td>
               <td>{p.team2Name}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+           </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
     </div>
   );
 };
 
-export default Q4;
+export default Range;

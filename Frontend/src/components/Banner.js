@@ -5,8 +5,7 @@ const Banner = () => {
       
     <>
       <div style={{textAlign:"center"}}>
-      <h1>Banner</h1>
-      <img src="https://lawbhoomi.com/wp-content/uploads/2023/11/sportz-interactive.webp" alt="Sportz interactive"  style={{alignContent:"center"}}></img>
+      <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202403/65f94200c07d1-the-matches-will-be-played-in-the-afternoon-and-at-night-as-per-indian-standard-time-194255490-16x9.jpg" alt="Sportz interactive"  style={{alignContent:"center"}}></img>
       </div>
     </>
   )

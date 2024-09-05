@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AddPayment from "./AddPayment";
+import {AddPlayer} from "../Services/APIService";
 
 const Post = (props) => {
   // const log = useContext(LogContext)
@@ -13,7 +13,7 @@ const Post = (props) => {
   });
   const createPlayer = async () => {
     // console.log(player);
-    await AddPayment(player);
+    await AddPlayer(player);
   };
   const validate = (e) => {
     e.preventDefault();
@@ -37,9 +37,6 @@ const Post = (props) => {
 
   return (
     <>
-      <h1 className="text-center mb-5" style={{ color: "#007bff" }}>
-        Create an action method to inserts a new Player in the database.
-      </h1>
       <form className="form-group container" onSubmit={validate}>
         <div className="form-group">
           <label htmlFor="player_name">Player Name : </label>

@@ -1,45 +1,23 @@
-import { Link } from "react-router-dom";
 
-export default function Navigation() {
-  return (
-    <nav
-      style={{
-        backgroundColor: "#f0f0f0",
-        padding: "10px",
-        display: "flex",
-        justifyContent: "space-between",
-      }}
-    >
-      <Link
-        to="/"
-        style={{ margin: "0 10px", textDecoration: "none", color: "#000" }}
-      >
-        Home
-      </Link>
-      <Link
-        to="/Post"
-        style={{ margin: "0 10px", textDecoration: "none", color: "#000" }}
-      >
-        Add Player
-      </Link>
-      <Link
-        to="/q2"
-        style={{ margin: "0 10px", textDecoration: "none", color: "#000" }}
-      >
-        Question 2
-      </Link>
-      <Link
-        to="/q3"
-        style={{ margin: "0 10px", textDecoration: "none", color: "#000" }}
-      >
-        Question 3
-      </Link>
-      <Link
-        to="/q4"
-        style={{ margin: "0 10px", textDecoration: "none", color: "#000" }}
-      >
-        Question 4
-      </Link>
-    </nav>
-  );
-}
+import React from 'react';
+import { Link } from 'react-router-dom'; 
+import '../styles/Navbar.css';
+
+const Navigation = () => {
+    return (
+        <nav className="navbar">
+            <div className="navbar-brand">
+                <Link to="/" className="navbar-logo">MySite</Link>
+            </div>
+            <ul className="navbar-menu">
+                <li><Link to="/" className="navbar-item button-link">Home</Link></li>
+                <li><Link to="/Post" className="navbar-item button-link" >Add Player </Link></li>
+                <li><Link to="/Match-Details" className="navbar-item button-link" > Match Details</Link></li>
+                <li><Link to="/top-players" className="navbar-item button-link" >Top players</Link></li>
+                <li><Link to="/date-range" className="navbar-item button-link" >Date Range</Link></li>
+            </ul>
+        </nav>
+    );
+};
+
+export default Navigation;

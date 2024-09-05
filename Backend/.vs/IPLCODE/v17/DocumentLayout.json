@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Models\\MatchDetails.cs",
               "ToolTip": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\Models\\MatchDetails.cs",
               "RelativeToolTip": "Models\\MatchDetails.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwAkAAAAlAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T07:06:39.962Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "DAO\\MatchDAOImpl.cs",
               "ViewState": "AQIAAI0AAAAAAAAAAAAuwLsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T07:07:10.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T07:07:10.221Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "DAO\\IMatchDAO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T07:06:48.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T07:06:48.702Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAQwDIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T07:06:19.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T07:06:19.601Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-05T07:05:24.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T07:05:24.082Z"
             }
           ]
         }

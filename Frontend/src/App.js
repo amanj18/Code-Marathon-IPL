@@ -2,11 +2,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Banner from "./components/Banner";
-import Q2 from "./components/Q2";
-import Q3 from "./components/Q3";
+import Details from "./components/MatchDetails";
+import TopPlays from "./components/TopPlayers";
 import Navigation from "./components/Navigation";
 import Post from "./components/Post";
-import Q4 from "./components/Q4";
+import Range from "./components/DateRange";
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Banner />} />
-          <Route path="/q2" element={<Q2 />} />
-          <Route path="/q3" element={<Q3 />} />
+          <Route path="/Match-Details" element={<Details />} />
+          <Route path="/top-players" element={<TopPlays />} />
           <Route path="/post" element={<Post />} />
-          <Route path="/q4" element={<Q4 />} />
+          <Route path="/date-range" element={<Range />} />
         </Routes>
       </BrowserRouter>
     </>
