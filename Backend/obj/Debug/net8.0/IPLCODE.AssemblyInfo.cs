@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPLCODE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f1076ac89978ee53ed06b9e98398d383b8757b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c3eca18e1d3709279f8d50bfc5000945eb4de39")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPLCODE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPLCODE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
