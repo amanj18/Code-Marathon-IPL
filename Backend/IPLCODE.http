@@ -1,0 +1,6 @@
+@IPLCODE_HostAddress = http://localhost:5262
+
+GET {{IPLCODE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

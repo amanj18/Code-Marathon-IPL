@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|c:\\users\\aman.jaiswal\\documents\\projects\\webapplication1\\ipl\\backend\\models\\matchdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|solutionrelative:models\\matchdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|c:\\users\\aman.jaiswal\\documents\\projects\\webapplication1\\ipl\\backend\\dao\\matchdaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|solutionrelative:dao\\matchdaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|c:\\users\\aman.jaiswal\\documents\\projects\\webapplication1\\ipl\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|c:\\users\\aman.jaiswal\\documents\\projects\\webapplication1\\ipl\\backend\\dao\\imatchdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|solutionrelative:dao\\imatchdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|c:\\users\\aman.jaiswal\\documents\\projects\\webapplication1\\ipl\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C97B4F08-93C6-498B-992D-03AE6930CE18}|IPLCODE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MatchDetails.cs",
+              "DocumentMoniker": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\Models\\MatchDetails.cs",
+              "RelativeDocumentMoniker": "Models\\MatchDetails.cs",
+              "ToolTip": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\Models\\MatchDetails.cs",
+              "RelativeToolTip": "Models\\MatchDetails.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:06:39.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\DAO\\MatchDAOImpl.cs",
+              "RelativeDocumentMoniker": "DAO\\MatchDAOImpl.cs",
+              "ToolTip": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\DAO\\MatchDAOImpl.cs",
+              "RelativeToolTip": "DAO\\MatchDAOImpl.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAuwLsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:07:10.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMatchDAO.cs",
+              "DocumentMoniker": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\DAO\\IMatchDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\IMatchDAO.cs",
+              "ToolTip": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\DAO\\IMatchDAO.cs",
+              "RelativeToolTip": "DAO\\IMatchDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:06:48.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:06:19.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\aman.jaiswal\\Documents\\Projects\\WebApplication1\\IPL\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T07:05:24.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
